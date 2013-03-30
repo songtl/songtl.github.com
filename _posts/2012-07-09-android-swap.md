@@ -2,7 +2,7 @@
 layout: post
 title: Android系统Swap分区小疑问
 categories: Android
-tags: [Android,swap]
+tags: [Android, swap]
 ---
 
 因为手机内存只有256MB，而Android出自Linux，所以可以使用虚拟内存swap来改善性能，虽然这不是什么新鲜的事情，不过今天将手机内存重新规划为Cache-20MB   System-180MB    Oem-0MB Data-240MB之后，SD卡的swap分区居然出现了问题，记录如下。。

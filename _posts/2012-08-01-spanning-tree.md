@@ -2,7 +2,7 @@
 layout: post
 title: STP生成树协议选举过程
 categories: Network
-tags: [STP,Cisco,生成数]
+tags: [STP, Cisco, 生成树]
 ---
 
 STP选举过程涉及根网桥（root brige）、根端口（root port）、指定端口（designated port）、阻塞端口（block port），最近在网上看到了CISCO发布的一个介绍STP协议选举过程的FLASH，比较易于理解。因此转过来收藏  

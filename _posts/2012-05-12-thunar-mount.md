@@ -2,7 +2,7 @@
 layout: post
 title: 解决thunar挂载分区无权限
 categories: Linux
-tags: [Arch,Linux,thunar,挂载,权限]
+tags: [Arch, Linux, thunar, 挂载, 权限]
 ---
 
 今天闲来无事更新了一下系统，感觉Archlinux的滚动更新确实是个不错的东西。更新完之后发现在Thunar侧边栏直接点击图标无法挂载分区了，提示

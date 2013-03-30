@@ -2,7 +2,7 @@
 layout: post
 title: 主机同时收到两个ARP Reply时的处理机制
 categories: Network
-tags: [ARP Reply,Linux,windows]
+tags: [ARP Reply, Linux, windows]
 ---
 
 当主机发送ARP Requst（请求）包后同时收到两个ARP Reply（应答）包包含不同的MAC地址时主机会怎么处理呢？今天在公司测试时就碰到了这个问题。

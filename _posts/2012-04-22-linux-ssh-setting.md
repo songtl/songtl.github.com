@@ -2,7 +2,7 @@
 layout: post
 title: Linux实现SSH远程登录
 categories: Linux
-tags: [Arch,ssh,ubuntu]
+tags: [Arch, ssh, ubuntu]
 ---
 
 远程登录方式有telnet和ssh两种方式，由于telnet使用的是明文传输，传输过程中系统帐号密码等重要信息容易被截获，安全性比不上SSH（secure shell），因此现在一般都使用SSH作为远程登录的工具。

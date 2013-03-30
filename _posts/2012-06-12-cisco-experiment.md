@@ -2,7 +2,7 @@
 layout: post
 title: CISCO综合实验
 categories: Network
-tags: [CISCO,RIP,VLAN,VTP,单臂路由]
+tags: [CISCO, RIP, VLAN, VTP, 单臂路由]
 ---
 
 昨天闲逛51CTO论坛，看到个同是网络专业学生发的一个[“求救啊！本人菜鸟，求各位高手赐教 拓扑图问题”](http://bbs.51cto.com/thread-933954-1.html) 帖子，想必应该是期末的课程设计之类的吧。正好没什么事，再者路由与交换的知识自从考了国家四级网络工程师之后忘得也差不多了。于是就配来玩玩，权当是复习吧！

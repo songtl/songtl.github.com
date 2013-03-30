@@ -2,7 +2,7 @@
 layout: post
 title: OSPF常见LSA类型及特殊区域
 categories: Network
-tags: [Area,LSA,OSPF]
+tags: [Area, LSA, OSPF]
 ---
 
 初学OSPF很容易被各种LSA类型和特殊区域搞晕，但是为了更好的掌握OSPF这个广泛使用的动态路由协议，还是需要搞清楚了LSA的来源、包含信息和传播区域，以及各种特殊区域存在的LSA类型。

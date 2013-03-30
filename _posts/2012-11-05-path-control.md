@@ -2,7 +2,7 @@
 layout: post
 title: 路径控制综合实验
 categories: Network
-tags: [path control,cisco]
+tags: [path control, cisco]
 ---
 
 这个实验是朱SIR 的CCNP教程里面特别提到的，是一个非常有意义和巧妙的一个实验。做这个实验花了不少时间，没有特别复杂的命令，不过有比较严格的限制，实现需求的时候必须瞻前顾后！

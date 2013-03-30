@@ -3,7 +3,7 @@ author: song
 layout: post
 title: Fcitx在Archlinux某些GTK2程序无法激活的解决方法
 categories: Linux
-tags: [Fcitx,GTK2]
+tags: [Fcitx, GTK2]
 ---
 
 最近换成Fcitx输入法后，在英文Locale下某些GTK2程序总是无法通过Ctrl Space正常激活，如GNS3、阿里旺旺、永中Office等，不过切换到中文Locale就能够正常激活，这确实是个非常烦人的问题。

@@ -2,7 +2,7 @@
 layout: post
 title: 解决BGP路由黑洞：联邦
 categories: Network
-tags: [BGP,confederation,联邦,路由黑洞]
+tags: [BGP, confederation, 联邦, 路由黑洞]
 ---
 
 BGP为了解决环路问题，设计了IBGP水平分割原则：从IBGP邻居收到的路由不再传递给其他IBGP邻居。但这产生了路由黑洞、路由学习不完整一系列问题。我们可以通过联邦有条件的打破IBGP水平分割，避免路由黑洞问题！

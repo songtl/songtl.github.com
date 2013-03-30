@@ -2,7 +2,7 @@
 layout: post
 title: 实验验证在路由器上发送ping包时的源IP地址
 categories: Network
-tags: [ping包,源IP]
+tags: [ping包, 源IP]
 ---
 
 在今天路由与交换的Trouble Shooting实验上，有一个疑问，当在路由器上ping一台设备时，会选择哪个物理网卡的IP作为ICMP ping包的源IP地址。因为老师的说法与书上不相同，因此搭建实验环境进行验证,毕竟实验才是检验真理的唯一标准。

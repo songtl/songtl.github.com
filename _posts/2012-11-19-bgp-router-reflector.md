@@ -2,7 +2,7 @@
 layout: post
 title: 解决BGP路由黑洞：路由反射器
 categories: Network
-tags: [BGP,Router Reflector,路由黑洞]
+tags: [BGP, Router Reflector, 路由黑洞]
 ---
 
 BGP为了解决环路问题，设计了IBGP水平分割原则：从IBGP邻居收到的路由不再传递给其他IBGP邻居。但这产生了路由黑洞、路由学习不完整一系列问题。上一篇[《解决BGP路由黑洞：联邦》](http://songtl.com/bgp-confederation.html)通过联邦打破了IBGP水平分割，但解决问题并非只有一种方法，这里使用另一种方法：路由反射器。

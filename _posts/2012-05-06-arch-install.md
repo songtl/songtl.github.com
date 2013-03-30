@@ -2,7 +2,7 @@
 layout: post
 title: ArchLinux安装与配置
 categories: Linux
-tags: [Arch,Linux]
+tags: [Arch, Linux]
 ---
 
 一直使用Uubuntu10.04LTS,不过很多地方总是不合心意。正好Ubuntu在4月26发布了12.04LTS版本，于是打算升级上去看看10.04下的问题有没有改善。升级之后发现Unity 3D居然花屏，2D正常，10.04存在的问题依然没有得到好的解决。于是转投ArchLinux，安装过程坎坷，记下备忘。

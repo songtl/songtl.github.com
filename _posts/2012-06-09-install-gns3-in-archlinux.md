@@ -2,7 +2,7 @@
 layout: post
 title: ArchLinux安装GNS3笔记
 categories: Linux
-tags: [GNS3,Arch,Linux]
+tags: [GNS3, Arch, Linux]
 ---
 
 因为在路由与交换的学习上经常要做实验，所以CISCO模拟器是必不可少的。当然模拟器也有很多个选择，比如CISCO自家出的Packettracer、直接运行CISO系统的Dynamips，以及基于Dynamips的DynamipsGUI、GNS3。Packettracer、Dyanmips、GNS3都是跨平台的！以前一直使用的是Packettracer，对于初学者来说非常不错，不过在Linux平台上不太友好，使用软件自带的Lib库字体根本没法看，使用系统的Lib库后字体倒正常，不过工作无法保存。最新版Packettracer 5.3.3自带Lib库字体已经可以看清楚，不过离养眼还有些差距。再者很多命令跟不上真机，所以决定以后路由与交换的实验还是转到GNS3上来。

@@ -2,7 +2,7 @@
 layout: post
 title: 'Everybody&#8217;s Fine'
 categories: Life
-tags: [家,中秋]
+tags: [家, 中秋]
 ---
 
 Everybody’s Fine，一部公路电影，国内译为《天伦之旅》。
