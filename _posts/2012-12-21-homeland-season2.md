@@ -2,7 +2,7 @@
 layout: post
 title: Homeland(国土安全)第二季完结
 categories: Life
-tags: [美剧，Homeland]
+tags: [美剧, Homeland]
 ---
 
 刚看这部剧是中秋的时候，当时因为豆瓣、时光电影榜的电影都已经看的七七八八了，而又没有多少值得期待的新片，岔巧在微博上看到美剧《Homeland》第二季开播的消息，看反响还不错，另外恐怖袭击的题材也挺对胃口的，所以就跟着看了。
