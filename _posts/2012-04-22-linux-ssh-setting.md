@@ -111,6 +111,6 @@ root目录
 
 ![root](http://pic.yupoo.com/songtl/CKE6swp1/medish.jpg)
 
-ll 查看文件详情
+ll 查看文件属性
 
 ![ll](http://pic.yupoo.com/songtl/CKE6swp1/medish.jpg)
