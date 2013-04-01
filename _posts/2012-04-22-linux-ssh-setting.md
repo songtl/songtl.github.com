@@ -113,4 +113,4 @@ root目录
 
 ll 查看文件属性
 
-![ll](http://pic.yupoo.com/songtl/CKE6swp1/medish.jpg)
+![ll](http://pic.yupoo.com/songtl/CKE6tuoq/medish.jpg)
