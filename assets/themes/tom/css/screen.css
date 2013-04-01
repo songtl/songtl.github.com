@@ -1,0 +1,255 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: "Lucida Grande","Lucida Sans Unicode","DejaVu Sans",Lucida,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  margin: auto;
+  width: 800px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+h2 {
+    color: #333333;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 1px dashed #BBBBBB;
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333333;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    color: #333333;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1em;
+    color: #333333;
+    font-weight: normal;
+}
+
+h6 {
+    font-size: 1em;
+    color: #333333;
+    font-weight: inherit;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+hr {
+    border-color: #BBBBBB;
+    border-style: none none solid none;
+    border-width: medium medium 1px medium;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+  ul.posts li {
+    line-height: 1.75em;
+	margin-left: 5em;
+  }
+
+  ul.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 1em;;
+  }
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  background-color: rgb(255, 255, 255);
+  font-size: 110%;
+  text-align: justify;
+  border-color: transparent;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  width: 780px;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+.title {
+  color: #a00;
+  font-weight: bold;
+  background-color: rgb(245, 245, 245);
+  padding: 2em 2em;
+}
+
+  .site .title a {
+    color: #a00;
+	font-size: 1.5em
+    text-decoration: none;
+  }
+
+  .site .title a:hover {
+    color: black;
+  }
+
+  .site .title a.extra {
+    color: #aaa;
+    text-decoration: none;
+	underline: none;
+  }
+
+  .site .title a.extra:hover {
+    color: black;
+  }
+
+  .site .meta {
+    color: #aaa;
+  }
+
+  .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+  }
+
+    .site .footer .contact {
+      float: left;
+      margin-right: 3em;
+    }
+
+      .site .footer .contact a {
+        color: #8085C1;
+      }
+
+    .site .footer .rss {
+      margin-top: 1.1em;
+      margin-right: -.2em;
+      float: right;
+    }
+
+      .site .footer .rss img {
+        border: 0;
+      }
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+#post {
+	margin: 2em 2em 0.5em 2em;;
+	padding-bottom: 
+	text-align: justify;
+}
+
+#post h1 {
+	text-align: center;
+}
+
+  /* standard */
+
+  #post pre {
+	background-color: #F7F7F9;
+	white-space: pre-wrap;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px 5px 5px 5px;
+    margin: 15px 0;
+    padding: 0.5em;
+  }
+
+  #post ul,
+  #post ol {
+    margin-left: 1.35em;
+  }
+
+  #post code {
+	background-color: #F7F7F9;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    font-size: 0.9em;
+    padding: 0.1em 0.25em;
+  }
+
+  #post pre code {
+	border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0;
+    }
+
+  /* terminal */
+
+  #post pre.terminal {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+  }
+
+  #post pre.terminal code {
+    background-color: #333;
+  }
+

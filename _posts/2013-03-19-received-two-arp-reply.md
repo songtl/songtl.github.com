@@ -22,7 +22,7 @@ tags: [ARP Reply, Linux, windows]
 
 windows系统中收到第一个ARP Reply时将它写入ARP缓存表，接着又收到第二个ARP Reply，于是把ARP缓存表中对应的旧表项覆盖了，这是符合逻辑的。但为什么Linux系统中ARP表项不会被第二个ARP Reply覆盖？
 
-类Unix系统中有这么一个文件：/proc/sys/net/ipv4/neigh/DEV/locktime
+类Unix系统中有这么一个文件：`/proc/sys/net/ipv4/neigh/DEV/locktime`
 
 找到的一个文档是这样解释的
 

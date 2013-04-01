@@ -102,9 +102,15 @@ ArchLinux
 另外，本人使用的是Android的手机，使用的是Linux的内核，所以希望也能从手机远程登录自己的电脑。首先，手机上安装支持ssh连接的软件，Cyanogenmod7版本的系统就自带一个Terminal，简直就是一个微型的linux终端，基本上很多基本的指令都能执行，比如：ls，cd，mount，cat，nano等等。接下来还有一个问题，我使用的是电信的ADSL，通过TP-link路由器pppoe拨号上网，每次拨号获取的ip都不一样，这样是无法ssh登录的，因为你不知道下一次获取的ip地址是多少。于是想到了windows下的花生壳客户端，可以动态解析域名，赶紧到花生壳网站申请了一个免费域名，不过当时还没发布linux的客户端（现在有源码安装），隐约好像记得TP-link有动态DNS功能，登录上去果不其然，在动态DNS的服务提供者选花生壳，账户密码就填花生壳网站的账户密码，登录之后就会把花生壳帐号绑定的域名解析到本地，但是当你通过域名ssh连接的时候发现是连接不上的，因为拨号上网的是路由器，花生壳会把域名解析到你的路由器，而不是你的电脑，因此还要做进一步设置。在TP-link路由器设置页面的转发规则里选DMZ主机，把DMZ状态设置启用，DMZ主机ip地址填你从路由器DHCP服务器获得ip，如果你的路由器比较多人上网可能每次从DHCP获得的ip也是不一样的，所以要把你的主机mac地址和某一个ip地址绑定，也就是把某一个ip地址保留给你的网卡，让你每次获取的都是同一个ip，把这个ip地址填到DMZ主机ip地址里面。再用域名来ssh连接发现已经可以正常链接了。
 
 最后放上几张手机远程登录主机成功后的截图  
+
 welcome to ubuntu  
- ![welcome](http://songtl.com/wp-content/uploads/2012/04/screenshot-1335180998557.png)
+
+![welcome](http://pic.yupoo.com/songtl/CKE6tuv6/medish.jpg)
+
 root目录
- ![root](http://songtl.com/wp-content/uploads/2012/04/screenshot-1335180450776.png)
+
+![root](http://pic.yupoo.com/songtl/CKE6swp1/medish.jpg)
+
 ll 查看文件详情
- ![ll](http://songtl.com/wp-content/uploads/2012/04/screenshot-1335180473039.png)
+
+![ll](http://pic.yupoo.com/songtl/CKE6swp1/medish.jpg)
