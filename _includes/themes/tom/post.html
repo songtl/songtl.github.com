@@ -1,0 +1,13 @@
+<div id="post">
+  <h1>{{ page.title }}</h1>
+  <br>
+  <hr/>
+  <p class="meta">
+    {{ page.date | date_to_long_string }} 
+    {% if page.location %}{{ page.location }}{% endif %}
+  </p>
+  {{ content }}
+  <hr/>
+  <br>
+  {% include JB/comments %}
+</div>
