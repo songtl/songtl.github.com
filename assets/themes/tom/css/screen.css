@@ -64,7 +64,6 @@ p {
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
@@ -123,7 +122,7 @@ ul.posts {
   text-align: justify;
   width: 780px;
   margin: 10px 10px 40px 10px;;
-  padding-bottom:30px;
+  padding-bottom: 30px;
   line-height: 1.5em;
 }
 
@@ -168,6 +167,9 @@ ul.posts {
 	padding: 0px 20px 0px 20px;
 }
 
+#post ul a {
+	color: black;
+}
 
 #post h1{
 	text-align: center;
@@ -229,6 +231,10 @@ ul.posts {
 	vertical-align: super;
 }
 
+.tag_box.inline a {
+	color: black;
+}
+
 .tag_box.inline li {
 	display: inline-block;
 	padding: 0 2px;
@@ -238,3 +244,4 @@ ul.posts {
     vertical-align: super;
 	font-size: 12px;
 }
+
