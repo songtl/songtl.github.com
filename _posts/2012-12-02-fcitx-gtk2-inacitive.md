@@ -10,11 +10,11 @@ tags: [Fcitx, GTK2]
 
 [官方wiki也提到了这个问题：](https://wiki.archlinux.org/index.php/Fcitx#Troubleshooting)
 
-*   **Ctrl Space fail to work in GTK2 programs**
+*   Ctrl Space fail to work in GTK2 programs
 
 This problem sometimes happens when locale is set as English. From the official FAQ, simply use:
 
-    \# gtk-query-immodules-2.0 > /etc/gtk-2.0/gtk.immodules
+    # gtk-query-immodules-2.0 > /etc/gtk-2.0/gtk.immodules
 
 then edit gtk.immodules，and change the corresponding line as below:
 

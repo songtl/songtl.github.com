@@ -11,7 +11,7 @@ tags: [GNS3, Arch, Linux]
 
 GNS3在aur的源里，所以通过yaourt安装。由于GNS3是基于Dynamips的，所以有如下依赖关系
 
-    Dynamips &gt;&gt; Dynagen  &gt;&gt; GNS3
+    Dynamips > Dynagen > GNS3
 
 好在yaourt会自动解决依赖关系，所以直接安装GNS3就可以
 
