@@ -13,10 +13,10 @@ tags: [Linux, 服务器, 鸟哥]
 
 归还图书馆之前留个纪念  
 
-![](http://songtl.com/wp-content/uploads/2012/07/Screenshot-07082012-065219-PM.png)
+![](http://pic.yupoo.com/songtl/CLfPAOcw/medish.jpg)
 
 660页的厚度  
 
-![](http://songtl.com/wp-content/uploads/2012/07/Screenshot-07082012-065330-PM.png)
+![](http://pic.yupoo.com/songtl/CLfPYtLJ/medish.jpg)
 
 当然，随时都可以到鸟哥的网站阅读电子版，不过电子版没有纸质看起来有味道。而且拿着一本纸质的书学习积极性也好得多。总之，希望以后有机会能再读一遍！！

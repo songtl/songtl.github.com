@@ -9,7 +9,7 @@ tags: [ping包, 源IP]
 
 按当时的实验拓扑配置好IP(拓扑图中忘了标R4的Loopback 0接口的IP地址：10.1.5.1/24)
 
-![](http://songtl.com/wp-content/uploads/2012/09/Screenshot-09102012-101540-PM.png)
+![](http://pic.yupoo.com/songtl/CLfPF2t0/medish.jpg)
 
 在R1，R2，R3，R4设置静态路由如下
 

@@ -7,7 +7,7 @@ tags: [BGP, confederation, 联邦, 路由黑洞]
 
 BGP为了解决环路问题，设计了IBGP水平分割原则：从IBGP邻居收到的路由不再传递给其他IBGP邻居。但这产生了路由黑洞、路由学习不完整一系列问题。我们可以通过联邦有条件的打破IBGP水平分割，避免路由黑洞问题！
 
-![](http://songtl.com/wp-content/uploads/2012/11/Screenshot-11172012-054104-PM.png)
+![](http://pic.yupoo.com/songtl/CLfPJuBA/medish.jpg)
 
 正常情况下，邻居关系：R1与R2为EBGP ，R2与R3为IBGP，R3与R4为IBGP，R4与R5为EBGP，R1通告的AS1内部的路由通过R2传递给R3后因为水平分割原则不会继续传递给R4,同理R5通告的AS5内部的路由通过R4传递给R3后也不会继续传递给R2。这就导致了R1没有AS5的路由，R5没有AS1的路由。
 

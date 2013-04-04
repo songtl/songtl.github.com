@@ -5,7 +5,7 @@ categories: Network
 tags: [CISCO, RIP, VLAN, VTP, 单臂路由]
 ---
 
-昨天闲逛51CTO论坛，看到个同是网络专业学生发的一个[“求救啊！本人菜鸟，求各位高手赐教 拓扑图问题”](http://bbs.51cto.com/thread-933954-1.html) 帖子，想必应该是期末的课程设计之类的吧。正好没什么事，再者路由与交换的知识自从考了国家四级网络工程师之后忘得也差不多了。于是就配来玩玩，权当是复习吧！
+昨天闲逛51CTO论坛，看到个同是网络专业学生发的一个[“求救啊！本人菜鸟，求各位高手赐教 拓扑图问题”](http://bbs.51cto.com/thread-933954-1.html) 帖子，想必应该是作业之类的吧。正好没什么事，再者路由与交换的知识自从考了国家四级网络工程师之后忘得也差不多了。于是就配来玩玩，当是复习吧！
 
 
 原帖要求有三：
@@ -25,11 +25,11 @@ tags: [CISCO, RIP, VLAN, VTP, 单臂路由]
 
 当然我就是玩玩，所以路由器、交换机设置密码、远程管理（VTY）就免了，虽然也就一两行命令的事。所以第一条要求忽略掉。照着原帖的拓扑图片在Packettracer里搭好拓扑
 
-![](http://songtl.com/wp-content/uploads/2012/06/截图-2012年06月12日-15时03分47秒.png)
+![](http://pic.yupoo.com/songtl/CLfQ4c4J/medish.jpg)
 
 IP已经规划好
 
-![](http://songtl.com/wp-content/uploads/2012/06/截图-2012年06月12日-15时28分21秒.png)
+![](http://pic.yupoo.com/songtl/CLfQ4ibe/medish.jpg)
 
 接下来就是配置过程了：
 
@@ -157,4 +157,4 @@ IP已经规划好
 
 配置完成，远程管理计算机ping VLAN 2 PC1测试  
 
-![](http://songtl.com/wp-content/uploads/2012/06/截图-2012年06月13日-09时19分49秒.png)
+![](http://pic.yupoo.com/songtl/CKE6IVcz/medish.jpg)

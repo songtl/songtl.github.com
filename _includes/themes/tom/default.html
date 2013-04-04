@@ -12,46 +12,20 @@
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="screen, projection" />
 
-   <!-- Typekit -->
- <!--  <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
 </head>
 <body>
 
   <div class="site">
     <div class="title">
       <a href="{{ HOME_PATH }}">{{ site.title }}</a>
-
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
-    </div>
+	  <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">存档</a>
+      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">分类</a>
+      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">标签</a>
+	</div>
   
     {{ content }}
-  
-<!--    <div class="footer">
-      <div class="contact">
-        <p>
-          {{ site.author.name }}<br />
-          {{ site.tagline }}<br />
-          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
-        </p>
-      </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
-        </p>
-      </div>
-      <div class="rss">
-        <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
-          <img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" />
-        </a>
-      </div>
-    </div>
-  </div>
-  <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+  </div>  
 
   {% include JB/analytics %}
 </body>
-</html> -->
+</html>

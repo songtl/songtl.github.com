@@ -9,7 +9,7 @@ tags: [DHCP, HSRP, OSPF, VLAN, 蓝狐]
 
 首先看下整体的局域网拓扑图  
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名20.jpg)
+![](http://pic.yupoo.com/songtl/CLfQ9KSu/medish.jpg)
 
 ##项目要求如下：##
 
@@ -33,7 +33,7 @@ tags: [DHCP, HSRP, OSPF, VLAN, 蓝狐]
 
 **IP地址规划表**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名211.jpg)
+![](http://pic.yupoo.com/songtl/CLfQbvoQ/medish.jpg)
 
 **因为要配置的设备比较多，所以我的配置过程分为四个部分：**
 
@@ -44,9 +44,10 @@ tags: [DHCP, HSRP, OSPF, VLAN, 蓝狐]
 
 整个配置过程使用Dynagen SecureCRT VPCS来模拟，全网配置涉及Vlan，Trunk，单臂路由，三层交换，PVST,HSRP,DHCP,链路跟踪，链路捆绑，OSPF等知识。
 
-###第一部分、益阳分部配置###
+##第一部分、益阳分部配置
 
 **1、基本信息配置**  
+
 SW8，SW9，RT6
 
     router>en
@@ -58,6 +59,7 @@ SW8，SW9，RT6
     SW8(config-line)#exit
 
 **2、SW8,SW9 VLAN划分，Access，Trunk模式设置**  
+
 SW8
 
     SW8#vlan database
@@ -100,6 +102,7 @@ SW9
     SW9(config-if)#no shutdown
 
 **3、SW8,SW9,RT6网管地址及单臂路由配置**  
+
 SW8
 
     SW8(config)#no ip routing
@@ -158,7 +161,7 @@ RT6
     RT6(config)#ip dhcp exclude-address 10.132.3.1
     RT6(config)#ip dhcp exclude-address 10.132.3.255
 
-###第二部分、衡阳分部配置###
+##第二部分、衡阳分部配置
 
 **1、SW7，RT5基本信息配置**
 
@@ -191,6 +194,7 @@ RT6
     SW7(config-if)#no shutdown
 
 **3、SW7，RT5网管地址、单臂路由配置**  
+
 SW7
 
     SW7(config)#no ip routing
@@ -242,7 +246,7 @@ RT5
     RT5(config)#ip dhcp exclude-address 10.132.2.1
     RT5(config)#ip dhcp exclude-address 10.132.2.255
 
-###第三部分、长沙总部配置###
+##第三部分、长沙总部配置
 
 **1、SW1，SW2，SW3基本信息配置**
 
@@ -438,7 +442,7 @@ SW2
     SW2(config)#ip dhcp excluded-address 10.68.1.255
     SW2(config)#ip dhcp excluded-address 10.132.1.255
 
-###第四部分、全网OSPF配置###
+##第四部分、全网OSPF配置
 
 SW1
 
@@ -554,55 +558,55 @@ RT4
 
 通过dhcp获取ip地址
 
-![]( http://songtl.com/wp-content/uploads/2012/08/未命名28.jpg)
+![](http://pic.yupoo.com/songtl/CLfQatQW/medish.jpg)
 
 **PC1 PING PC8**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名5.jpg)
+![](http://pic.yupoo.com/songtl/CLfPMoH9/medish.jpg)
 
 **PC1 PING PC3**
 
-![]( http://songtl.com/wp-content/uploads/2012/08/未命名6.jpg)
+![](http://pic.yupoo.com/songtl/CLfPMBE5/medish.jpg)
 
 **SW3上show spanning-tree**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名7.jpg)
+![](http://pic.yupoo.com/songtl/CKE6L45x/medish.jpg)
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名8.jpg)
+![](http://pic.yupoo.com/songtl/CKE6LrzX/medish.jpg)
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名9.jpg)
+![](http://pic.yupoo.com/songtl/CKE6Lp0B/medish.jpg)
 
 **SW1上show stanby brief**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名11.jpg)
+![](http://pic.yupoo.com/songtl/CKE6Lt38/medish.jpg)
 
 **SW2上show stanby brief**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名12.jpg)
+![](http://pic.yupoo.com/songtl/CLfQ7xU8/medish.jpg)
 
 **RT4上show ip ospf neighbor**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名13.jpg)
+![](http://pic.yupoo.com/songtl/CLfQ7V9H/medish.jpg)
 
 **RT5上show ip ospf neighbor**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名14.jpg)
+![](http://pic.yupoo.com/songtl/CLfPOj2p/medish.jpg)
 
 **RT6上show ip ospf neighbor**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名15.jpg)
+![](http://pic.yupoo.com/songtl/CLfQ7WYI/medish.jpg)
 
 **SW1上show ip ospf neighbor**  
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名16.jpg)
+![](http://pic.yupoo.com/songtl/CLfPOESd/medish.jpg)
 
 **SW2上show ip ospf neighbor**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名17.jpg)
+![](http://pic.yupoo.com/songtl/CLfQ84xh/medish.jpg)
 
 **SW1上show ip route**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名18.jpg)
+![](http://pic.yupoo.com/songtl/CLfQ98Yy/medish.jpg)
 
 整个网络是全部互通的，配置上没有什么大的问题，花好几个钟得时间终于写完这篇文章，虽然检查了几次，但文中的命令有些是自己一行行敲下来，有些是从show running复制的，不排除笔误部分,我自己在配置的过程中基本是严格按照OSI七层模型层次化配置的，但如果文章按照配置顺序写可能会显得比较乱，所以我稍微改变了一些顺序才贴出来比较好利于理解，虽然配置命令比较多，不过配命令都比较简单，所以具体的注释也没有写（写了排版不太好看，chrome里看起来整齐到了firfox就乱了，反之也一样），再者配置前都有一个说明这是配置什么。
 

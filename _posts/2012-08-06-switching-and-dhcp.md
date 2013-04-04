@@ -14,7 +14,7 @@ tags: [DHCP, 三层交换]
 
 **1、首先在GNS3里面搭好拓扑，给S1，S2，S3分别添加一个NM-16ESW交换模块，给R1加一个NM-1FE-TX快速以太网口**
 
-![](http://songtl.com/wp-content/uploads/2012/08/未命名.jpg)
+![](http://pic.yupoo.com/songtl/CLfQ4AqN/medish.jpg)
 
 **2、S1、S2、S3、R1基本信息配置**
 
@@ -118,14 +118,17 @@ s3的配置
 
 **三、实验结果**
 
-**配置完成，打开VPC，通过DHCP获取ip地址**  
-![](http://songtl.com/wp-content/uploads/2012/08/未命名1.jpg)
+配置完成，打开VPC，通过DHCP获取ip地址
+ 
+![](http://pic.yupoo.com/songtl/CLfQ5g7M/medish.jpg)
 
-**全部获得IP地址，show查看一下**  
-![](http://songtl.com/wp-content/uploads/2012/08/未命名21.jpg)
+全部获得IP地址，show查看一下
+ 
+![](http://pic.yupoo.com/songtl/CLfQ9Qc2/medish.jpg)
 
-**PC1 ping PC4**  
-![](http://songtl.com/wp-content/uploads/2012/08/未命名3.jpg)
+PC1 ping PC4
+
+![](http://pic.yupoo.com/songtl/CLfQ507w/medish.jpg)
 
 
 三层交换与DHCP中继实验到此结束。

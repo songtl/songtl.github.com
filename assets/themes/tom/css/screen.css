@@ -6,6 +6,20 @@
 
 /* Global Reset */
 
+
+body {
+  background-color: rgb(238, 238, 238);
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  width: 800px;
+  margin: auto;
+}
+
+hr {
+    border-color: #BBBBBB;
+    border-style: none none solid none;
+    border-width: medium medium 1px medium;
+}
+
 h1 {
     color: #333333;
     font-size: 1.6em;
@@ -56,7 +70,7 @@ a {
 
 a:hover {
   color: black;
-  text-decoration: underline;
+  text-decoration:underline;
 }
 
 a:visited {
@@ -68,82 +82,83 @@ table {
   font: 100%;
 }
 
-hr {
-    border-color: #BBBBBB;
-    border-style: none none solid none;
-    border-width: medium medium 1px medium;
-}
-
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
 
+ul.posts a {
+	color: black;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
-  margin-top: 2em;
 }
 
   ul.posts li {
     line-height: 1.75em;
-	margin-left: 5em;
+	margin-left: 50px;
   }
 
   ul.posts span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
-    font-size: 1em;;
+    font-size: 80%;
   }
 
 /*****************************************************************************/
 /*
-/* Body
+/* Site
 /*
 /*****************************************************************************/
 
-.body {
-  background-color: rgb(255, 255, 255);
+.site {
+  background: none repeat scroll 0% 0% rgb(249, 249, 249);
+  box-shadow: 0px 0px 7px rgb(172, 171, 171);
+  border: 1px solid rgb(162, 161, 161);
+  border-radius: 0px 0px 6px 6px;
   font-size: 110%;
   text-align: justify;
-  border-color: transparent;
-  border-radius: 0 0 6px 6px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   width: 780px;
-  padding-bottom: 0.5em;
-  margin: 10px;
+  margin: 10px 10px 40px 10px;;
+  padding-bottom:30px;
   line-height: 1.5em;
 }
 
 .title {
-  color: #a00;
+  background: url("../images/pattern1.png") repeat scroll 0% 0% rgb(247, 247, 247);
+  border-bottom: 1px solid rgb(212, 211, 211);
+  height: 50px;
   font-weight: bold;
-  background-color: rgb(245, 245, 245);
-  padding: 2em 2em;
+  padding: 20px 20px 20px 20px;
 }
 
-  .body .title a {
+  .site .title a {
     color: #a00;
     text-decoration: none;
   }
 
-  .body .title a:hover {
+  .site .title a:hover {
     color: black;
   }
 
-  .body .title a.extra {
-    color: #aaa;
+  .site .title a.extra {
+    float: right;
+    color: black;
     text-decoration: none;
-	underline: none;
+	padding-top: 40px;
+    margin-left: 1em;
   }
 
-  .body .title a.extra:hover {
+  .site .title a.extra:hover {
     color: black;
   }
 
-  .body .meta {
+  .site .meta {
     color: #aaa;
+	text-align: center;
   }
 
 
@@ -154,54 +169,76 @@ ul.posts {
 /*****************************************************************************/
 
 #post {
-	margin: 2em 2em 0.5em 2em;;
-	padding-bottom: 
-	text-align: justify;
+	padding: 0px 20px 0px 20px;
 }
 
-#post h1 {
+
+#post h1{
 	text-align: center;
 }
 
   /* standard */
 
-  #post pre {
-	background-color: #F7F7F9;
+#post pre {
+	font-family: Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;;
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre;
 	white-space: pre-wrap;
-    border: 1px solid #ccc;
-	border: 1px solid rbga(0,0,0,0.15)
-    border-radius: 5px 5px 5px 5px;
-    margin: 15px 0;
-    padding: 0.5em;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+    border-radius: 4px;
   }
 
-  #post ul,
-  #post ol {
-    margin-left: 1.35em;
-  }
-
-  #post code {
-	padding: 2px 4px;
-	white-space: nowrap;
-	background-color: #f7f7f9;
+#post code {
+	font-family: Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;;
+	padding: 2px;;
+	color: inherit;
+	white-space: pre;
+	white-space: pre-wrap;
+	background-color: #f5f5f5;
 	border: 1px solid #e1e1e8;
+	border-radius: 3px;
   }
 
-  #post pre code {
-	white-space: pre-wrap;
+#post pre code {
+	font-family: Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;;
+	padding: 0 3px 2px;
+	color: #333333;
 	border: 0;
-    padding: 0;
-    }
+  }
 
   /* terminal */
 
-  #post pre.terminal {
+#post pre.terminal {
     border: 1px solid black;
     background-color: #333;
     color: white;
   }
 
-  #post pre.terminal code {
+#post pre.terminal code {
     background-color: #333;
   }
 
+
+.tag_box.inline {
+	list-style:none;
+	margin-top: 10px;
+	padding:5px 2px ;
+	overflow:hidden;
+	 display: inline-block;
+	vertical-align: super;
+}
+
+.tag_box.inline li {
+	display: inline-block;
+	padding: 0 2px;
+}
+
+.tag_box.inline li span {
+    vertical-align: super;
+	font-size: 12px;
+}

@@ -7,7 +7,7 @@ tags: [path control, cisco]
 
 这个实验是朱SIR 的CCNP教程里面特别提到的，是一个非常有意义和巧妙的一个实验。做这个实验花了不少时间，没有特别复杂的命令，不过有比较严格的限制，实现需求的时候必须瞻前顾后！
 
-![](http://songtl.com/wp-content/uploads/2012/11/QQ½ØÍ¼20121101101514.png)
+![](http://pic.yupoo.com/songtl/CKE6s3B0/medish.jpg)
 
 **需求一分析：**
 

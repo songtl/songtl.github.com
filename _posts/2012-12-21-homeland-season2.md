@@ -9,11 +9,11 @@ tags: [美剧, Homeland]
 
 今天看了一下，此剧居然包揽了艾美奖最佳剧集、最佳男主、最佳女主好几个奖项  
 
-![](http://songtl.com/wp-content/uploads/2012/12/Homeland-homeland-30373154-1600-1200.jpg)
+![](http://pic.yupoo.com/songtl/CKE4O1Nu/medish.jpg)
 
 男女主角的演技不用说了，挺喜欢Saul这个角色
 
-![](http://songtl.com/wp-content/uploads/2012/12/Homeland-homeland-30373163-1600-1200.jpg)
+![](http://pic.yupoo.com/songtl/CLfPPiYg/medish.jpg)
 
 说实话第一季前几集看得是挺闷的，一直是女主监视男主生活的剧情。但当时正值中秋放假确实无聊，也就耐着性子看下去了，到后面越来越有感觉，看完第一季的时候还有些意犹未尽。此时第二季刚播到第二集，而中秋的假期也完了。
 

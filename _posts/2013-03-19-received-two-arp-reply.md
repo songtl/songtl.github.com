@@ -11,7 +11,7 @@ tags: [ARP Reply, Linux, windows]
 
 用Wireshark抓到了ARP Requst、ARP Reply交互的过程，发现主机收到了两个几乎同时到达的ARP Reply报文  
 
-![](http://songtl.com/wp-content/uploads/2013/03/Screenshot-03192013-032311-PM.png)
+![](http://pic.yupoo.com/songtl/CLgdfLla/medish.jpg)
 
 测试发现：
 
