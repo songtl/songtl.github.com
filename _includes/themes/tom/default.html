@@ -18,9 +18,12 @@
   <div class="site">
     <div class="title">
       <a href="{{ HOME_PATH }}">{{ site.title }}</a>
-	  <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">存档</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">分类</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">标签</a>
+		<li>
+			{% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+		</li>
+			
 	</div>
   
     {{ content }}

@@ -133,10 +133,11 @@ ul.posts {
   height: 50px;
   font-weight: bold;
   padding: 20px 20px 20px 20px;
+  margin-bottom: 10px;
 }
 
   .site .title a {
-    color: #a00;
+    color: black;
     text-decoration: none;
   }
 
@@ -144,17 +145,12 @@ ul.posts {
     color: black;
   }
 
-  .site .title a.extra {
+  .site .title li {
     float: right;
-    color: black;
-    text-decoration: none;
-	padding-top: 40px;
-    margin-left: 1em;
-  }
-
-  .site .title a.extra:hover {
-    color: black;
-  }
+	margin: 40px 0 0 10px;
+	list-style: none;
+    display: inline-block;
+}
 
   .site .meta {
     color: #aaa;
