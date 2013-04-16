@@ -21,13 +21,13 @@ tags: [Arch, Linux]
 
 1.到分区这一步的时候选手动分区，cfdisk完成之后保存提示re-read错误，然后设置挂载点的时候读不到我新建的分区。是因为内核没有读取到新建的分区，重启解决。理论上Alt F2切换到tty2，登录root执行下面命令可以强制系统内核重读分区表信息
 
-    partprobe
+		partprobe
 
 2.到最后安装grub开机引导到MBR总是出错，切换到tty7显示error 12，我在虚拟机里面安装也是一样问题。只能切换到tty2，通过grub命令安装
 
-    grub
-    root (hd0,0)
-    setup (hd0)
+		grub
+		root (hd0,0)
+		setup (hd0)
 
 或者
 
