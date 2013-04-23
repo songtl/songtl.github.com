@@ -19,8 +19,9 @@ Everybody’s Fine，一部公路电影，国内译为《天伦之旅》。
 
 片尾曲：I want to come home –Paul McCartney
 
- 
-For so long I was out in the cold,  
+<embed src="http://www.douban.com/swf/player.swf?url=http://www.cclausen.net/nostro_posto/music/paul_mccartney-i_want_to_come_home.mp3&amp;autoplay=0" type="application/x-shockwave-flash" wmode="transparent" allowscriptaccess="always" width="400" height="30"></embed>
+
+Fo so long I was out in the cold,  
 and I taught myself to believe every story I told.  
 It was fun hanging onto the moon, heading into the sun,  
 but it’s been too long. Now I wanna come home.
