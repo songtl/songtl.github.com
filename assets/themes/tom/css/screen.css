@@ -65,17 +65,17 @@ p {
 }
 
 a {
-  color: black;
-  text-decoration: underline;
+  color: #336699;
+  text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: #336699;;
   text-decoration:underline;
 }
 
 a:visited {
-  color: black;
+  color: #336699;
   text-decoration: none;
 }
 
