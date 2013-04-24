@@ -3,6 +3,7 @@
 permalink: /:title.html
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: rdiscount
 auto: true
 pygments: true
 
