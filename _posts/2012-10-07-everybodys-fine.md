@@ -49,4 +49,4 @@ but it’s been too long. Now I wanna come home.
 Yeah, it’s been too long, now I want to come home.  
 Been too long, now I want to come home.
 
-我们都是迷失的一群，我们一直在寻找回家的路！ ——《Everybody’s fine》影评
+我们都是迷失的一群，我们一直在寻找回家的路！ ——《Everybody's fine》影评
