@@ -79,18 +79,6 @@ a:visited {
   text-decoration: none;
 }
 
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-
-ul.posts a {
-	color: black;
-	text-decoration: none;
-}
-
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;

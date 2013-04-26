@@ -24,7 +24,7 @@ then edit gtk.immodules，and change the corresponding line as below:
 
 不过注意到wiki中有一段关于Fcitx在Emacs中不能输入是这么说的：
 
-*   **Emacs**
+*   Emacs
 
 If your LC\_CTYPE is English, you may not be able to use input method in emacs due to a old emacs’ bug. You can set your LC\_CTYPE to something else such as “zh_CN.UTF-8″ before emacs starts to get rid of this problem.
 
