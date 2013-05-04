@@ -17,17 +17,17 @@ tags: [Arch, Linux, thunar, 挂载, 权限]
 
 
     <action id="org.freedesktop.udisks2.filesystem-mount-system">
-        省略
-        <allow_active>auth_admin_keep</allow_active>
-        省略
+            省略
+            <allow_active>auth_admin_keep</allow_active>
+            省略
     </action>
     
 把其中的auth_admin_keep改成yes,即
 
     <action id="org.freedesktop.udisks2.filesystem-mount-system">
-        省略
-        <allow_active>yes</allow_active>
-        省略
+            省略
+            <allow_active>yes</allow_active>
+            省略
     </action>
 
 
