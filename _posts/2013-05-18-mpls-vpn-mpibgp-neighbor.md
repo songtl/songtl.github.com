@@ -66,7 +66,7 @@ R3上同样开启Debug命令可以看到R3收到了R2发送来的带21标签的M
 	18         Pop Label  2.2.2.2/32       0             Se1/0      point2point 
 	19         Pop Label  4.4.4.4/32       0             Se1/1      point2point
 
-其实根本原因是R1,R4使用物理接口s0/1建立MP-IBGP邻居，在R1上10.10.10.0/24的下一跳为192.168.34.4，R3是该地址的最后一跳路由器，而R2就是次末跳路由器，根据默认开启的PHP（Penultimate Hop Popping/次末跳弹出）原则，也就能解释为什么R2会弹出最外层标签了。如果把R1,R4的s0/0接口宣告进了MPLS的IGP内,用R1、R4的是s0/0来建立MP-IBGP邻居，这样应该是没问题的，当然思科官方的文档是建议使用Loopback接口来建立MP-IBGP邻居！
+其实根本原因是R1,R4使用物理接口s0/1建立MP-IBGP邻居，在R1上10.10.10.0/24的下一跳为192.168.34.4，是R3的直连路由，所以R3是该地址的最后一跳路由器，而R2就是次末跳路由器，根据默认开启的PHP（Penultimate Hop Popping/次末跳弹出）原则，也就能解释为什么R2会弹出最外层标签了。如果把R1,R4的s0/0接口宣告进了MPLS的IGP内,用R1、R4的是s0/0来建立MP-IBGP邻居，这样应该是没问题的，当然思科官方的文档是建议使用Loopback接口来建立MP-IBGP邻居！
 
 如果MPLS内部运行OSPF协议，R1、R4之间使用Loopback接口建立MP-IBGP邻居，但Loopback接口掩码为24位,这种情况路由器也会弹出提示
 
