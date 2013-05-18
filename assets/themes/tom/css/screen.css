@@ -197,6 +197,7 @@ ul.posts {
 	background-color: #f5f5f5;
 	border: 1px solid #ccc;
     border-radius: 4px;
+	line-height: 1.3em;
   }
 
 #post code {
@@ -208,6 +209,7 @@ ul.posts {
 	background-color: #f5f5f5;
 	border: 1px solid #e1e1e8;
 	border-radius: 3px;
+	line-height: 1.3em;
   }
 
 #post pre code {
@@ -215,6 +217,7 @@ ul.posts {
 	padding: 0 3px 2px;
 	color: #333333;
 	border: 0;
+	line-height: 1.3em;
   }
 
   /* terminal */
