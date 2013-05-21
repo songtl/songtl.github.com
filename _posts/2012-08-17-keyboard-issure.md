@@ -13,7 +13,7 @@ tags: [windows, 键盘映射]
 
 2.展开到以下位置
 
-    HKEY_LOCAL_MAcHINESYSTEMCurrentControlSetControlKeyboard Layout
+	HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout\
 
 3.在空白处右键新建一个二进制值，名称为 Scancode Map
 
