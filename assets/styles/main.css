@@ -857,7 +857,7 @@ img.profile {
     }
 
     .post {
-        font-size: 0.9em;
+        font-size: 16px;
         line-height: 1.6em;
     }
 
@@ -870,12 +870,12 @@ img.profile {
     }
 
     h1 {
-        font-size: 4.8rem;
+        font-size: 30px;
         text-indent: -2px;
     }
 
     h2 {
-        font-size: 3.8rem;
+        font-size: 25px;
     }
 
     h3 {
@@ -910,7 +910,7 @@ img.profile {
         width:auto;
         margin-left: 16px;
         margin-right: 16px;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 1.6em;
     }
 
@@ -927,14 +927,14 @@ img.profile {
     }
 
     h1{
-        font-size: 28px;
+        font-size: 20px;
         line-height: 1.1em;
         letter-spacing: -1px;
     }
 
 	h2 {
 
-		font-size: 20px;
+		font-size: 17px;
     h3 {
         font-size: 2.9rem;
     }
