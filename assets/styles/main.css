@@ -433,12 +433,12 @@ span.blog-title {
 }
 
 .post.content header {
-    font-weight: bold;
     float: left;
     display: inline;
 }
 
 .post.content time {
+	font-family: Monaco,"Courier New",monospace;
     float: right;
     display: inline;
 }
