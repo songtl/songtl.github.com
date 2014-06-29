@@ -451,6 +451,8 @@ span.blog-title {
 
 .post-title {
     margin:0;
+	border-bottom: 1px dashed #BBB; 
+	line-height: 2.0em;
 }
 
 .post-title a {
@@ -916,6 +918,7 @@ img.profile {
 	.post.content header { 
 		font-size: 14px;
 		line-height: 3.0em;
+		
 	}
 	.post.content time { 
 		font-size: 14px;

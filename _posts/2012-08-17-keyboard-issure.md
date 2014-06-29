@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows系统通过注册表禁用某个按键
+title: Win7通过注册表禁用某个按键
 categories: Windows
 tags: [windows, 键盘映射]
 ---
