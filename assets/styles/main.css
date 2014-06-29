@@ -881,11 +881,11 @@ img.profile {
     }
 
     h3 {
-        font-size: 3.3rem;
+        font-size: 20px;
     }
 
     h4 {
-        font-size: 2.8rem;
+        font-size: 18px;
     }
 
 }
@@ -947,11 +947,11 @@ img.profile {
 
 		font-size: 17px;
     h3 {
-        font-size: 2.9rem;
+        font-size: 15px;
     }
 
     h4 {
-        font-size: 2.5rem;
+        font-size: 15px;
     }
 
     .post-template .post {
