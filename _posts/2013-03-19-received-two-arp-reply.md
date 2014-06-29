@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 主机同时收到两个ARP Reply时的处理机制
+title: 系统收到两个ARP Reply时的处理机制
 categories: Network
 tags: [ARP Reply, Linux, windows]
 ---
