@@ -913,6 +913,12 @@ img.profile {
         font-size: 14px;
         line-height: 2.0em;
     }
+	.post.content header { 
+		line-height: 3.0em;
+	}
+	.post.content time { 
+		line-height: 3.0em;
+	}
 
     .site-head {
         padding: 10% 0;
