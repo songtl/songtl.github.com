@@ -1,6 +1,7 @@
 name:           Terence's Blog
 description:    "Jugglers and singers require applause"
 
+permalink:      /:title.html
 markdown:       redcarpet
 highlighter:	pygments
 logo:           false
