@@ -5,7 +5,7 @@ description: ""
 category: "Network" 
 tags: [MPLS ,VPN ,MP-IBGP ,Loopback /32]
 ---
-{% include JB/setup %}
+
 在MPLS VPN实验中有可能会出现CE路由器之间能学到对方的私网路由，但无法ping通的情况，这很有可能是使用不正确的接口建立MP-IBGP邻居导致的！
 
 在PE之间建立MP-IBGP邻居传送VPNv4路由时需要注意

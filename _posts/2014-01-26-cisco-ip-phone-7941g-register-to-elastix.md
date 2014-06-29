@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Cisco IP Phone 7941G自动注册到Elastix服务器"
+title: "Cisco IP Phone 7941G自动注册Elastix"
 description: ""
 category: "network" 
 tags: [Cisco , IP Phone , Elastix , SIP]
 ---
-{% include JB/setup %}
 
 现有Cisco IP Phone 7941G两台，Cisco 2960交换机一台，需要实现两台IP Phone能自动注册到Elastix服务器上，并且能够互拨分机号进行通话。
 

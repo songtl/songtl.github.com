@@ -1,6 +1,62 @@
----
-theme :
-  name : tom
----
-{% include JB/setup %}
-{% include themes/tom/default.html %}
+<!DOCTYPE html>
+<html>
+<head>  
+
+    <!-- Browser -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!-- Basic -->
+    {% if page.title == 'Home' %}
+        <title>{{ site.name }}</title>
+    {% else %}
+        <title>{{ page.title }} - {{ site.name }}</title>
+    {% endif %} 
+
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.name }}" />
+
+    <!-- Twitter --> 
+    <meta name="twitter:card" content="summary"> 
+    <meta name="twitter:site" content="@{{ site.twitter }}"> 
+    <meta name="twitter:title" content="{{ page.title }}"> 
+    <meta name="twitter:creator" content="@{{ site.twitter }}"> 
+    {% if page.title == 'Home' %}
+        <meta name="twitter:description" content="{{ page.excerpt | strip_html }}" /> 
+    {% else %}
+        <meta name="twitter:description" content="{{ site.description }}" /> 
+    {% endif %} 
+
+    <!-- Open Graph --> 
+    <meta property="og:title" content="{{ page.title }}" /> 
+    <meta property="og:type" content="article" /> 
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:site_name" content="{{ site.name }}" /> 
+    {% if page.title == 'Home' %}
+        <meta property="og:description" content="{{ page.excerpt | strip_html }}" /> 
+    {% else %}
+        <meta property="og:description" content="{{ site.description }}" /> 
+    {% endif %} 
+    
+    <!-- Layout -->
+    <link rel="stylesheet" type="text/css" href="/assets/styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
+
+</head>
+<body class="home-template">
+
+    {{ content }}
+
+    <footer class="site-footer">
+        <div class="inner">
+            <section class="copyright">&copy 2014 <a href="/">{{ site.name }}</a> &bull; power by Jekyll</section>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="/assets/scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/scripts/main.js"></script>
+
+</body>
+</html>

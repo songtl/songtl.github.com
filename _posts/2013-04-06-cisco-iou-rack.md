@@ -5,7 +5,6 @@ description: ""
 category: Network
 tags: [cisco, 模拟器, IOU]
 ---
-{% include JB/setup %}
 
 以前做思科的实验一般都是用GNS3这个模拟器，主要缺点是太耗资源，计算好IDLE值开多几台路由器还是有些卡。前段时间研究了一下IOU这个CISCO内部使用的模拟器，感觉还不错。
 

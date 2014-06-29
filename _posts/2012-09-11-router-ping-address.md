@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 实验验证在路由器上发送ping包时的源IP地址
+title: 路由器发送ping包时的源IP地址
 categories: Network
 tags: [ping包, 源IP]
 ---

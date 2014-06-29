@@ -1,7 +1,7 @@
 ---
 author: song
 layout: post
-title: Fcitx在Archlinux某些GTK2程序无法激活的解决方法
+title: 解决Fcitx某些GTK2程序无法激活
 categories: Linux
 tags: [Fcitx, GTK2]
 ---
