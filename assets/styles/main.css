@@ -900,6 +900,11 @@ img.profile {
     .blog-logo img {
         max-height: 80px;
     }
+	
+	.site.head {
+
+		height: 200px;
+	}
 
     .inner, 
     .pagination {
