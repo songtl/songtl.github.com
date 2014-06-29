@@ -844,7 +844,7 @@ img.profile {
         -webkit-box-sizing: border-box; 
         -moz-box-sizing: border-box;
         box-sizing: border-box; 
-        height: 30%;
+        height: 200px;
         max-height: 200px;
     }
 
@@ -901,11 +901,6 @@ img.profile {
         max-height: 80px;
     }
 	
-	.site.head {
-
-		height: 200px;
-	}
-
     .inner, 
     .pagination {
         width: auto;
