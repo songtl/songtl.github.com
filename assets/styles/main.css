@@ -115,17 +115,20 @@ h4, h5, h6 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 30px;
+	text-align: center;
     line-height: 1.2em;
     letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 20px;
     line-height: 1.2em;
     letter-spacing: -1px;
     text-indent: -2px;
+	border-bottom: 1px dashed #bbb;
+	padding-bottom: 0.2em;
 }
 
 h3 {
@@ -408,7 +411,9 @@ span.blog-title {
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
+	border-bottom: none;
 }
+
 
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
@@ -928,11 +933,11 @@ img.profile {
     }
 
     h3 {
-        font-size: 2.8rem;
+        font-size: 2.9rem;
     }
 
     h4 {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
 
     .post-template .post {
