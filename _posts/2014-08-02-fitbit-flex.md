@@ -8,7 +8,7 @@ tags: []
 
 最近智能手环很火，在SMZDM上经常看到别人的晒单帖，感觉还挺Cool的一件科技产品，为了更加关注自己的运动情况及睡眠质量，所以入手了一个<a href=https://www.fitbit.com/flex>Fibit Flex</a>，经过一段时间的佩戴，说说最近的使用体验。
 
-其实当初考虑过<a href=http://www.misfit.com/shine>Misfit Shine</a>，优点是续航时间长,官方成一个纽扣电池能顶4个月，并且能显示时间，不过网上普遍吐嘈Shine的计费算法误差很大，且Shine带在腕带上容易丢失，再者Shine的外观不太对我的胃口，所以最终选择的FitBit Flex。
+其实当初考虑过<a href=http://www.misfit.com/shine>Misfit Shine</a>，优点是续航时间长,官方称一个纽扣电池能顶4个月，并且能显示时间，不过网上普遍吐嘈Shine的计步算法误差大，且Shine带在腕带上容易丢失，再者Shine的外观不太对我的胃口，所以最终选择的FitBit Flex。
 
 我选的是黑色的Flex，简朴低调，咋一看跟普通的橡胶手环没什么区别，上手照。
 
