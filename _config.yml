@@ -6,7 +6,7 @@ markdown:       redcarpet
 highlighter:	pygments
 logo:           false
 
-url:            "http://songtl.github.cc"
+url:            "http://songtl.github.com"
 author:         "Terence.Song"
 bio:            "Jugglers and singers require applause"
 
