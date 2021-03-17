@@ -3,7 +3,7 @@ description:    "Jugglers and singers require applause"
 
 permalink:      /:title.html
 markdown:       GFM
-highlighter:	pygments
+highlighter:	rouge
 logo:           false
 
 url:            "http://songtl.github.com"
